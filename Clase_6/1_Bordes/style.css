@@ -1,0 +1,52 @@
+/* 
+*Modelo de caja*
+
+Width
+Height
+Margins
+Paddings
+Border
+
+El border es la inea que aparece alrededor, no siempre se dibuja
+*/
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    margin: auto;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+    padding: 33px;
+    border: 10px solid black;
+    /* Shorthand */
+    /* la manera larga o especifica es: */
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    border-left-color: turquoise;
+}
+
+/* Box Sizing */
+/* 3 cajas generadas:
+
+Contenido (content box)
+Padding Box (espaciado interno)
+Border Box (bordes)
+*/
+
+.box{
+    box-sizing:border-box ;
+}

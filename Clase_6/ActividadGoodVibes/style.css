@@ -1,0 +1,11 @@
+body{
+    background: gold;
+}
+
+.vibes{
+    margin: 25%;
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: red;
+    text-shadow: -10px 10px darkred,-11px 11px darkred,-12px 12px darkred, -15px 15px red
+}

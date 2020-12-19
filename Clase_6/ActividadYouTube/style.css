@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+.box{
+    height: 250px;
+    width: 400px;
+    background: red;
+    border-radius: 85px/120px;
+    padding: 0.1px;
+}
+
+.play{
+    width: 150px;
+    height: 150px;
+    border: 75px solid;
+    border-color: transparent;
+    border-left-color: white;
+    margin: 50px auto;
+    transform: scaleY(0.55);
+    margin: 50px auto 50px 170px;
+
+}

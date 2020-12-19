@@ -1,0 +1,10 @@
+body{
+    background: blue;
+}
+.prueba{
+margin: 50%;
+font-family: 'Lobster', cursive;
+font-size: 100px;
+color: white;
+text-shadow:-20px 20px rgb(161, 241, 241), -40px 40px rgb(130, 202, 202), -60px 60px rgb(93, 167, 167) 
+}

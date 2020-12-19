@@ -1,0 +1,31 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+:root{
+    --width:400px;
+    --height: 250px;
+    --bg: lightblue;
+    --br: 65px;
+}
+
+.box{
+    display: inline-block;
+    width: var(--width);
+    height: var(--height);
+    background: var(--bg);
+    border: 10px solid magenta;
+    outline: 5px solid white;
+    /*  La propiedad outline permite generar lineas externas sin afectar las dimensiones de las mismas, es decir, se sobreponen
+
+    Tip: No reemplazar por bordes
+
+    Outlines:
+    Se usan para input,
+    para marcar errores,
+    para indicar pasos usados para dar enfasis
+
+     */
+}

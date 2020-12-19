@@ -1,0 +1,87 @@
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+:root{
+    --width:400px;
+    --height: 250px;
+    --bg: yellow;
+    --br: 50px
+}
+
+/* variables de CSS nos permiten reutilizar propiedades PERSONALIZADAS en  cualquier parte de nuestro codigo CSS 
+
+:root{
+    --NombrePropiedad: valor;
+    --GatitosBonitos: "img/gatitos.jpg"
+    --ColorEmpresa: #F8F8F8;
+    --AnchoIdeal: 400px
+}
+*/
+
+.box{
+    width: 400px;
+    height: 250px;
+    background: yellow;
+     border: 1px solid;
+     border-width: 4px 8px 16px 32px;
+    border-style: solid dashed dotted double;
+/*      border-color: black red blue green;
+ */     font-size: 2em;
+    color: purple;
+    border-top-width: 20px;
+    border-top-style: dashed;
+    border-top-color: black;
+}
+
+h1{
+    border: 3px solid;
+    display: inline-block;
+    padding: 50px;
+    border-style: dashed;
+    border-width: 0.25px;
+    border-width: 0;
+    /* Cuando deseen llevar algo a 0, no incluir unidades */
+}
+
+/* Sintaxis de bordes */
+/* border: width  */
+
+h1{
+    border: 20px solid;
+    border-color: transparent;
+    padding: 0;
+    border-top-color: red;
+}
+
+/* Border radius
+
+Esquinas redondeadas
+
+*/
+
+.box-2{
+    width: var(--width);
+    height: var(--height);
+    background: var(--bg);
+    border: 1px solid;
+    /* lo chido */
+    border-radius: 50%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 240px;
+
+    border-radius: 100px 50px 80px 200px / 200px 200px 20px 120px;
+    /* X / Y */
+}
+
+.box-3{
+    width: 100px;
+    height: 100px;
+    background: red;
+    /* Hacer un circulo */
+    border-radius: 50%;
+}

@@ -1,0 +1,46 @@
+/* Box Shadow:
+
+Sintaxis:
+
+box-shadow: h-offset v-offset blur spread color | inset
+
+h-offset: separacion horizontal
+v-offset: separacion vertical
+blur: difuminado
+spread: que tanto se crecera o contraera
+color: color
+inset: indicamos si la sombra es interior, por default es exterior
+
+! box shadow crea copias de un elemento
+
+ */
+
+ body{
+     background: black;
+ }
+
+ .circle{
+     width: 200px;
+     height: 200px;
+     background: black;
+     box-shadow: 400px 0, 800px 0, 1200px 0, 1600px 0, 200px 200px, 600px 200px, 1000px 200px, 0 400px, 400px 400px, 800px 400px, 1200px 400px, 
+
+ }
+
+ .circle-2{
+    width: 200px;
+    height: 200px;
+    background: yellowgreen;
+    box-shadow: -15px -15px 20px 0 rgba(0, 0, 0, 0.404) inset
+ }
+
+ .planet{
+     width: 300px;
+     height: 300px;
+     background: red;
+     margin: 100px auto;
+     border-radius: 50%;
+     /* El maximo border radius que puedes aplicar con porcentaje es 50% */
+     box-shadow: -15px -15px 20px 0 rgba(0, 0, 0, 0.527) inset, 5px 5px 5px rgba(255, 255, 255, 0.801) inset,
+     5px 5px 15px goldenrod
+ }
